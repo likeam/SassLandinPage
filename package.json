@@ -1,0 +1,25 @@
+{
+  "name": "sasslandinpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likeam/SassLandinPage.git"
+  },
+  "author": "Abdul Rehamn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likeam/SassLandinPage/issues"
+  },
+  "homepage": "https://github.com/likeam/SassLandinPage#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

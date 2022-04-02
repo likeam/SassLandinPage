@@ -1,0 +1,35 @@
+
+*,
+*::before,
+*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+body{
+   font-family: 'manrope',sans-serif;
+   color: #000000;
+   
+}
+
+.heading1{
+   background-color: bisque;
+
+}
+.form{
+  background-color: brown;
+}
+.btn{
+   width: 14rem;
+   height: 5.2rem;
+   color: #DFE4F1;
+   border-radius: 10%;
+   display: inline-block;
+   background-color:#3734A9;
+   border: 1px solid #DFE4F1;
+   margin-left: 1rem;
+}

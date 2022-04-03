@@ -1,7 +1,45 @@
 .above-fold{
-  background-color: aqua;
+    background-color: aqua;
+    margin: 13rem 37rem 13rem 15rem;
+    width: 104rem;
+    height: 44rem;
+
+    display: flex;
 
 }
 .content{
     background-color: blueviolet;
+    padding-right: 20rem;
+    &__button{
+        display: flex;
+    }
+}
+.form{
+    background-color: chartreuse;
+    width: 36rem;
+    height: 28rem;
+    margin: 2rem 0rem auto 8rem;
+}
+.group-177{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.round-button {
+	box-sizing: border-box;
+	display:block;
+	width:6rem;
+	height:6rem;
+	// padding-top: 14px;
+	// padding-left: 8px;
+	// line-height: 20px;
+	// border: 6px solid #fff;
+	border-radius: 50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background-color: #22D497;
+
+
 }

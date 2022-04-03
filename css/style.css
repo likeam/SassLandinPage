@@ -29,14 +29,61 @@ body {
   border: 1px solid #DFE4F1;
   margin-left: 1rem; }
 
-h2 {
-  background-color: aqua; }
+.heading1 {
+  background-color: crimson;
+  font-family: Manrope;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 74px;
+  letter-spacing: -0.03em;
+  text-align: left; }
+
+.heading2 {
+  margin-top: 2rem;
+  width: 45rem;
+  height: 9rem;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: -0.02em;
+  text-align: left; }
 
 .above-fold {
-  background-color: aqua; }
+  background-color: aqua;
+  margin: 13rem 37rem 13rem 15rem;
+  width: 104rem;
+  height: 44rem;
+  display: flex; }
 
 .content {
-  background-color: blueviolet; }
+  background-color: blueviolet;
+  padding-right: 20rem; }
+  .content__button {
+    display: flex; }
+
+.form {
+  background-color: chartreuse;
+  width: 36rem;
+  height: 28rem;
+  margin: 2rem 0rem auto 8rem; }
+
+.group-177 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.round-button {
+  box-sizing: border-box;
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background-color: #22D497; }
 
 .nav {
   margin: 2.8rem 12rem;

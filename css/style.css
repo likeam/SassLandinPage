@@ -16,9 +16,6 @@ body {
 .heading1 {
   background-color: bisque; }
 
-.form {
-  background-color: brown; }
-
 .btn {
   width: 14rem;
   height: 5.2rem;
@@ -28,6 +25,26 @@ body {
   background-color: #3734A9;
   border: 1px solid #DFE4F1;
   margin-left: 1rem; }
+  .btn__orange {
+    background: #FF7F5C;
+    width: 35.6rem;
+    height: 6rem;
+    text-transform: uppercase;
+    color: #DFE4F1;
+    font-family: Manrope;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0em;
+    text-align: center; }
+
+.file {
+  width: 35.6rem;
+  height: 6rem;
+  background: #FFFFFF;
+  border: 1px solid #DFE4F1;
+  box-sizing: border-box;
+  border-radius: 5px; }
 
 .heading1 {
   background-color: crimson;
@@ -49,8 +66,16 @@ body {
   letter-spacing: -0.02em;
   text-align: left; }
 
+.heading3 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #3734A9; }
+
 .above-fold {
-  background-color: aqua;
   margin: 13rem 37rem 13rem 15rem;
   width: 104rem;
   height: 44rem;
@@ -58,15 +83,16 @@ body {
 
 .content {
   background-color: blueviolet;
-  padding-right: 20rem; }
+  padding-right: 4rem; }
   .content__button {
     display: flex; }
 
 .form {
-  background-color: chartreuse;
   width: 36rem;
   height: 28rem;
-  margin: 2rem 0rem auto 8rem; }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .group-177 {
   margin-top: 2rem;
@@ -133,3 +159,57 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+
+.about {
+  background-color: chartreuse;
+  width: 70rem;
+  height: 20.6rem;
+  margin: 2rem 37rem; }
+
+.process {
+  background-color: cornflowerblue;
+  width: 104rem;
+  height: 23rem;
+  margin: 3rem 20rem; }
+
+.cta {
+  background-color: crimson;
+  width: 104rem;
+  height: 20rem;
+  margin: 4rem 20rem; }
+
+.contentbig {
+  background-color: darkgreen;
+  width: 115.5rem;
+  height: 52rem;
+  margin: 5rem 10rem 5rem 18rem; }
+
+.quick {
+  background-color: chocolate;
+  width: 120rem;
+  height: 17rem;
+  margin: 12rem; }
+
+.testimonials {
+  background-color: yellow;
+  width: 120rem;
+  height: 61.7rem;
+  margin: 6rem 12rem; }
+
+.blog {
+  background-color: orangered;
+  width: 120rem;
+  height: 63.3rem;
+  margin: 4rem 12rem; }
+
+.acta {
+  background-color: blue;
+  height: 45rem;
+  width: 144rem;
+  margin: 4rem 0; }
+
+.footer {
+  background-color: chartreuse;
+  width: 114rem;
+  height: 32.5rem;
+  margin: 6rem 13rem 6rem 17.2rem; }

@@ -20,9 +20,7 @@ body{
    background-color: bisque;
 
 }
-.form{
-  background-color: brown;
-}
+
 .btn{
    width: 14rem;
    height: 5.2rem;
@@ -32,4 +30,28 @@ body{
    background-color:#3734A9;
    border: 1px solid #DFE4F1;
    margin-left: 1rem;
+   &__orange{
+      background: #FF7F5C;
+      width: 35.6rem;
+      height: 6rem;
+      text-transform: uppercase;
+      color: #DFE4F1;
+      font-family: Manrope;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 3rem;
+      letter-spacing: 0em;
+      text-align: center;
+
+
+   }
+}
+
+.file{
+   width: 35.6rem;
+   height: 6rem;
+   background: #FFFFFF;
+   border: 1px solid #DFE4F1;
+   box-sizing: border-box;
+   border-radius: 5px;
 }

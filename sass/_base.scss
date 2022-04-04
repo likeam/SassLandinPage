@@ -30,6 +30,7 @@ body{
    background-color:#3734A9;
    border: 1px solid #DFE4F1;
    margin-left: 1rem;
+
    &__orange{
       background: #FF7F5C;
       width: 35.6rem;
@@ -42,7 +43,13 @@ body{
       line-height: 3rem;
       letter-spacing: 0em;
       text-align: center;
+   }
 
+   &__strech{
+      width: 54.9rem;
+      height: 4.8rem;
+      background: #3734A9;
+      border-radius: 1rem;
 
    }
 }

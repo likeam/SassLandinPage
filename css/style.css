@@ -60,7 +60,7 @@ body {
   letter-spacing: -0.03em;
   text-align: left; }
 
-.heading2 {
+.heading3 {
   margin-top: 2rem;
   width: 45rem;
   height: 9rem;
@@ -71,21 +71,20 @@ body {
   letter-spacing: -0.02em;
   text-align: left; }
 
-.heading3 {
-  font-family: Manrope;
-  font-size: 2.4rem;
-  font-weight: 700;
-  line-height: 3rem;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: #3734A9; }
+.heading2 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #000000; }
 
 .heading4 {
   font-family: Manrope;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  letter-spacing: -0.02em;
   text-align: center; }
 
 .above-fold {
@@ -177,13 +176,36 @@ body {
   background-color: chartreuse;
   width: 70rem;
   height: 20.6rem;
-  margin: 2rem 37rem; }
+  margin: 2rem 37rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
 
 .process {
-  background-color: cornflowerblue;
   width: 104rem;
   height: 23rem;
-  margin: 3rem 20rem; }
+  margin: 3rem 20rem;
+  display: flex;
+  align-content: space-between; }
+
+.group200 {
+  width: 28rem;
+  height: 22.8rem;
+  background-image: url("./img/146021.png");
+  background-color: blue; }
+
+.group201 {
+  width: 28rem;
+  height: 22.8rem;
+  background-image: url("./img/146021.png");
+  background-color: green; }
+
+.group202 {
+  width: 28rem;
+  height: 22.8rem;
+  background-image: url("./img/146021.png");
+  background-color: red; }
 
 .cta {
   background-color: crimson;

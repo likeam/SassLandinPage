@@ -2,5 +2,11 @@
     background-color: chartreuse;
     width: 70rem;
     height: 20.6rem;
-    margin : 2rem 37rem; 
+    margin : 2rem 37rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }

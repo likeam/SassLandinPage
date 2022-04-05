@@ -8,7 +8,7 @@
     text-align: left;
 
 }
-.heading2{
+.heading3{
 
     margin-top: 2rem;
     width: 45rem;
@@ -21,22 +21,25 @@
     text-align: left;
 
 }
-.heading3{
-    font-family: Manrope;
-    font-size: 2.4rem;
-    font-weight: 700;
-    line-height: 3rem;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: #3734A9;
+.heading2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 60px;
 
+    
+    letter-spacing: -0.03em;
+    
+    color: #000000;
 }
+    
 .heading4{
-    font-family: Manrope;
+font-family: Manrope;
 font-size: 20px;
 font-weight: 500;
 line-height: 30px;
-letter-spacing: -0.02em;
+// letter-spacing: -0.02em;
 text-align: center;
 
 }

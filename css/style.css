@@ -42,6 +42,13 @@ body {
     height: 4.8rem;
     background: #3734A9;
     border-radius: 1rem; }
+  .btn__big {
+    height: 6rem;
+    width: 18rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    align-self: center;
+    color: #ffff; }
 
 .file {
   width: 35.6rem;
@@ -60,7 +67,7 @@ body {
   letter-spacing: -0.03em;
   text-align: left; }
 
-.heading3 {
+.heading4 {
   margin-top: 2rem;
   width: 45rem;
   height: 9rem;
@@ -80,12 +87,20 @@ body {
   letter-spacing: -0.03em;
   color: #000000; }
 
-.heading4 {
+.heading5 {
   font-family: Manrope;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   text-align: center; }
+
+.heading3 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.6rem;
+  line-height: 5.6rem;
+  color: #000000; }
 
 .above-fold {
   margin: 13rem 37rem 13rem 15rem;
@@ -183,6 +198,7 @@ body {
   align-items: center; }
 
 .process {
+  background-color: cornflowerblue;
   width: 104rem;
   height: 23rem;
   margin: 3rem 20rem;
@@ -192,18 +208,21 @@ body {
 .group200 {
   width: 28rem;
   height: 22.8rem;
+  margin-right: 10rem;
   background-image: url("./img/146021.png");
   background-color: blue; }
 
 .group201 {
   width: 28rem;
   height: 22.8rem;
+  margin-right: 10rem;
   background-image: url("./img/146021.png");
   background-color: green; }
 
 .group202 {
   width: 28rem;
   height: 22.8rem;
+  margin-right: 0;
   background-image: url("./img/146021.png");
   background-color: red; }
 
@@ -211,13 +230,32 @@ body {
   background-color: crimson;
   width: 104rem;
   height: 20rem;
-  margin: 4rem 20rem; }
+  margin: 4rem 20rem;
+  padding: 6.8rem 7.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .cta__text {
+    width: 56.1rem;
+    height: 11.2rem; }
 
 .contentbig {
   background-color: darkgreen;
   width: 115.5rem;
   height: 52rem;
-  margin: 5rem 10rem 5rem 18rem; }
+  margin: 5rem 10rem 5rem 18rem;
+  display: flex;
+  justify-content: space-between; }
+
+.cards {
+  background-color: chartreuse;
+  width: 56.4rem;
+  height: 52.2rem; }
+
+.contentbig-text {
+  background-color: dodgerblue;
+  width: 49rem;
+  height: 47rem; }
 
 .quick {
   background-color: chocolate;

@@ -3,4 +3,31 @@
     width: 120rem;
     height: 61.7rem;
     margin: 6rem 12rem;
+
+    &__heading{
+        background-color: green;
+        width: 32.4rem;
+        height: 12.8rem;
+    }
+
+    &__contents{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__pic{
+        background-color: crimson;
+        width: 69rem;
+        height: 45rem;
+    }
+
+    &__text{
+        background-color: darkblue;
+        width: 45.5rem;
+        height: 37.8rem;
+
+    }
+
+
+
 }

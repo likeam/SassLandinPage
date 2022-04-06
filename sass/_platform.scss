@@ -1,0 +1,18 @@
+.platform{
+    background-color: greenyellow;
+    width: 120rem;
+    height: 45.2rem;
+    margin: 8rem 12rem;
+    
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card{
+        background-color: blue;
+        width: 38rem;
+        height: 35rem;
+
+    }
+}

@@ -2,5 +2,50 @@
     background-color: chartreuse;
     width: 114rem;
     height: 32.5rem;
-    margin: 6rem 13rem 6rem 17.2rem 
+    margin: 6rem 13rem 6rem 17.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &__contents{
+        background-color: aquamarine;
+        width: 114rem;
+        height: 20rem;
+
+        display: flex;
+        // justify-content: space-between;
+    
+
+    }
+
+    &__line{
+        
+        width: 1140px;
+        height: 2px;
+        background: black;
+
+        margin: 2rem 0;
+    }
+
+    &__text{
+        background-color: blueviolet;
+        width: 68rem;
+        height: 2.5rem;
+        
+    }
+
+    &__name{
+        background-color: red;
+        width: 21.3rem;
+        height: 15.3rem;
+    }
+
+    &__discription{
+        background-color: chartreuse;
+        width: 88rem;
+        height: 20rem;
+    }
+
 }

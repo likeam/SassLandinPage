@@ -3,4 +3,21 @@
     width: 120rem;
     height: 17rem;
     margin: 12rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__text{
+        background-color: cornflowerblue;
+        width: 33rem;
+        height: 9.2rem;
+        display: block;
+    }
+    &__card{
+        background-color: darkgoldenrod;
+        width: 22.5rem;
+        height: 6rem;
+
+    }
 }

@@ -1,0 +1,29 @@
+.companies{
+    background-color: burlywood;
+    width: 88.4rem;
+    height: 9.5rem;
+    margin: 4rem 28rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__text{
+        background-color: chartreuse;
+        width: 57.2rem;
+        height: 3rem;  
+    }
+
+    &__logos{
+        display: flex;
+        justify-content: space-between;
+
+        &-box{
+            width:13.75rem ;
+            height: 2.9rem;
+            background-color: white;
+            margin-right: 2rem;
+        }
+    }
+}

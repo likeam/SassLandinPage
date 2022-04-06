@@ -72,14 +72,12 @@ body {
   text-align: left; }
 
 .heading4 {
-  margin-top: 2rem;
   width: 45rem;
   height: 9rem;
   font-family: Manrope;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 500;
   line-height: 3rem;
-  letter-spacing: -0.02em;
   text-align: left; }
 
 .heading2 {
@@ -392,3 +390,25 @@ body {
     background-color: blue;
     width: 38rem;
     height: 35rem; }
+
+.companies {
+  background-color: burlywood;
+  width: 88.4rem;
+  height: 9.5rem;
+  margin: 4rem 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .companies__text {
+    background-color: chartreuse;
+    width: 57.2rem;
+    height: 3rem; }
+  .companies__logos {
+    display: flex;
+    justify-content: space-between; }
+    .companies__logos-box {
+      width: 13.75rem;
+      height: 2.9rem;
+      background-color: white;
+      margin-right: 2rem; }

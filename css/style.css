@@ -412,3 +412,5 @@ body {
       height: 2.9rem;
       background-color: white;
       margin-right: 2rem; }
+  .companies__img {
+    size: 100%; }

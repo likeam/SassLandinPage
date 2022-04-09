@@ -413,4 +413,6 @@ body {
       background-color: white;
       margin-right: 2rem; }
   .companies__img {
-    size: 100%; }
+    width: 13.75rem;
+    height: 2.9rem;
+    display: inline-block; }

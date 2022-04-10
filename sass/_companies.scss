@@ -27,11 +27,14 @@
         }
     }
     
-    &__img{
+    &__logo{
 
+        
+        size: 100%;
         width:13.75rem ;
         height: 2.9rem;
-     display: inline-block;     
-
+        justify-content: center;
+        
     }
+   
 }

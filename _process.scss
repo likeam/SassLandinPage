@@ -1,32 +1,44 @@
 .process{
-    background-color: cornflowerblue;
+  
     width: 104rem;
     height: 23rem;
     margin: 3rem 20rem;
 
     display: flex;
     align-content: space-between;
+
+   
+
+    &__bgimg{
+        margin-left: 10rem;
+        z-index: -1;
+    }
+
+    &__iconbox{
+       margin-left: 0;
+       margin-bottom: 8rem;
+    }
   
 }
 .group200{
+  
     width: 28rem;
     height: 22.8rem;
     margin-right: 10rem;
-    background-image: url("./img/146021.png");
-    background-color: blue
+   
+    background-repeat: no-repeat;
+
+  
 }
 .group201{
     width: 28rem;
     height: 22.8rem;
     margin-right: 10rem;
-    background-image: url("./img/146021.png");
-    background-color: green
+   
 }
 .group202{
     width: 28rem;
     height: 22.8rem;
     margin-right: 0;
-    background-image: url("./img/146021.png");
-    background-color: red;
 
 }

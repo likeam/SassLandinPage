@@ -242,7 +242,7 @@ body {
   height: 28rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-evenly; }
 
 .group-177 {
   margin-top: 2rem;
@@ -526,7 +526,7 @@ body {
     width: 109rem;
     height: 30rem;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-evenly; }
   .acta__text {
     background-color: red;
     width: 48rem;

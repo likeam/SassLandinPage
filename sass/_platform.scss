@@ -10,9 +10,18 @@
     }
 
     &__card{
-        background-color: blue;
+        background-color: aliceblue;
         width: 38rem;
         height: 35rem;
+        padding-top: 12rem;
+        display: inline-block;
 
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__img{
+        width: 4rem;
+        height: 4rem;
     }
 }

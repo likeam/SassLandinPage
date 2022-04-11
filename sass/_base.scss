@@ -15,6 +15,17 @@ body{
    color: #000000;
    
 }
+.mainbody{
+   
+position: absolute;
+width: 968.46px;
+height: 810.67px;
+left: 594px;
+top: -62px;
+z-index: -10;
+
+
+}
 
 .heading1{
    background-color: bisque;
@@ -49,7 +60,7 @@ body{
       width: 54.9rem;
       height: 4.8rem;
       background: #3734A9;
-      border-radius: 1rem;
+      border-radius: 2rem;
 
    }
    &__big{
@@ -67,6 +78,11 @@ body{
       width: 26rem;
       height: 6rem;
       margin: 4rem 48rem;
+      border-radius: 20%;
+   }
+   &__green{
+      width: 26rem;
+      height: 6rem;
    }
 }
 

@@ -13,6 +13,14 @@ body {
   font-family: 'manrope',sans-serif;
   color: #000000; }
 
+.mainbody {
+  position: absolute;
+  width: 968.46px;
+  height: 810.67px;
+  left: 594px;
+  top: -62px;
+  z-index: -10; }
+
 .heading1 {
   background-color: bisque; }
 
@@ -41,7 +49,7 @@ body {
     width: 54.9rem;
     height: 4.8rem;
     background: #3734A9;
-    border-radius: 1rem; }
+    border-radius: 2rem; }
   .btn__big {
     height: 6rem;
     width: 18rem;
@@ -52,7 +60,11 @@ body {
   .btn__medium {
     width: 26rem;
     height: 6rem;
-    margin: 4rem 48rem; }
+    margin: 4rem 48rem;
+    border-radius: 20%; }
+  .btn__green {
+    width: 26rem;
+    height: 6rem; }
 
 .file {
   width: 35.6rem;
@@ -133,9 +145,18 @@ body {
   font-family: Manrope;
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 2.5rem;
-  letter-spacing: 0em;
-  text-align: left; }
+  line-height: 2.6rem;
+  letter-spacing: -0.02em; }
+  .heading8__1 {
+    font-family: Manrope;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    color: #64607D;
+    text-align: right;
+    margin-top: -2rem; }
 
 .heading9 {
   font-family: Manrope;
@@ -150,6 +171,59 @@ body {
   font-size: 5rem;
   font-weight: 800;
   text-align: left; }
+
+.heading10 {
+  font-family: Manrope;
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  text-align: left; }
+
+.heading11 {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: -0.02em;
+  text-align: left; }
+
+.heading7_1 {
+  font-family: Manrope;
+  font-size: 1.4rem;
+  font-weight: 700, bold;
+  line-height: 1.75rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #3734A9;
+  text-transform: uppercase; }
+
+.heading2__1 {
+  font-family: Manrope;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 4.8rem;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #000000; }
+
+.heading5__1 {
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 800 bold;
+  line-height: 3rem;
+  padding-right: 50%;
+  margin: 2rem auto; }
+
+.heading11__1 {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 800 bold;
+  line-height: 3rem;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase; }
 
 .above-fold {
   margin: 13rem 37rem 13rem 15rem;
@@ -369,13 +443,41 @@ body {
     display: flex;
     justify-content: space-between; }
   .testimonials__pic {
-    background-color: crimson;
+    background-color: white;
     width: 69rem;
-    height: 45rem; }
+    height: 45rem;
+    display: inline-block; }
+  .testimonials__img {
+    width: 65.3rem;
+    height: 37.8rem;
+    position: absolute; }
+  .testimonials__arow {
+    margin-top: 2rem;
+    width: 8rem;
+    height: 3.5rem;
+    z-index: 20; }
+  .testimonials__invt {
+    width: 7rem;
+    height: 7rem;
+    background: #3734A9;
+    border-radius: 50%;
+    position: relative;
+    z-index: +20;
+    margin-top: 8rem;
+    margin-left: 62rem; }
   .testimonials__text {
-    background-color: darkblue;
+    background-color: white;
     width: 45.5rem;
     height: 37.8rem; }
+
+.invertedcomma {
+  width: 36.54px;
+  height: 27px;
+  color: #FF7F5C; }
+
+.stars {
+  width: 10rem;
+  height: 2rem; }
 
 .blog {
   background-color: orangered;
@@ -399,6 +501,10 @@ body {
     width: 38rem;
     height: 49.5rem;
     background-color: burlywood; }
+
+.card__picbig {
+  width: 38rem;
+  height: 27rem; }
 
 .acta {
   background-color: blue;
@@ -466,9 +572,16 @@ body {
     display: flex;
     justify-content: space-between; }
   .platform__card {
-    background-color: blue;
+    background-color: aliceblue;
     width: 38rem;
-    height: 35rem; }
+    height: 35rem;
+    padding-top: 12rem;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between; }
+  .platform__img {
+    width: 4rem;
+    height: 4rem; }
 
 .companies {
   background-color: burlywood;

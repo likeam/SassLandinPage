@@ -16,18 +16,59 @@
     }
 
     &__pic{
-        background-color: crimson;
+        background-color: white;
         width: 69rem;
         height: 45rem;
+        display: inline-block;
+    }
+    &__img{
+        width: 65.3rem;
+        height: 37.8rem;
+        position: absolute;
     }
 
+    &__arow{
+        margin-top: 2rem;
+        width: 8rem;
+        height: 3.5rem;
+        z-index:20;
+    }
+
+    &__invt{
+        width: 7rem;
+        height: 7rem;
+        background: #3734A9;
+        border-radius: 50%;
+        position: relative;
+        z-index: +20;
+        margin-top: 8rem;
+        margin-left: 62rem;
+
+    }
+    
+
     &__text{
-        background-color: darkblue;
+        background-color: white;
         width: 45.5rem;
         height: 37.8rem;
 
     }
 
+
+
+
+
+}
+
+.invertedcomma{
+    width: 36.54px;
+    height: 27px;
+    color: #FF7F5C;
+    ;
+}
+.stars{
+    width: 10rem;
+    height: 2rem;
 
 
 }

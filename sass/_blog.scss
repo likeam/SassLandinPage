@@ -25,7 +25,20 @@
     &__card{
         width: 38rem;
         height: 49.5rem;
-        background-color: burlywood;
+        background-color: white;
+    }
+    &__subcard{
+        background-color: cadetblue;
+        width: 38rem;
+        height: 11rem;
+        margin: 1rem auto;
+
+        display: flex;
+    }
+
+    &__subcardpic{
+        width: 11rem;
+        height: 8rem;
     }
 }
 

@@ -500,7 +500,16 @@ body {
   .blog__card {
     width: 38rem;
     height: 49.5rem;
-    background-color: burlywood; }
+    background-color: white; }
+  .blog__subcard {
+    background-color: cadetblue;
+    width: 38rem;
+    height: 11rem;
+    margin: 1rem auto;
+    display: flex; }
+  .blog__subcardpic {
+    width: 11rem;
+    height: 8rem; }
 
 .card__picbig {
   width: 38rem;

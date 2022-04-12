@@ -1,11 +1,11 @@
 .testimonials{
-    background-color: yellow;
+ 
     width: 120rem;
-    height: 61.7rem;
+    height: 62rem;
     margin: 6rem 12rem;
 
     &__heading{
-        background-color: green;
+    
         width: 32.4rem;
         height: 12.8rem;
     }
@@ -28,10 +28,10 @@
     }
 
     &__arow{
-        margin-top: 2rem;
+        // margin-top: 2rem;
         width: 8rem;
         height: 3.5rem;
-        z-index:20;
+        z-index:2020;
     }
 
     &__invt{
@@ -69,6 +69,7 @@
 .stars{
     width: 10rem;
     height: 2rem;
+    background-color: white;
 
 
 }

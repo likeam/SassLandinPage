@@ -48,6 +48,20 @@ z-index: -10;
       letter-spacing: 0em;
       text-align: center;
    }
+   
+   &__orange__1{
+      background: #FF7F5C;
+      width: 37rem;
+      height: 6rem;
+      text-transform: uppercase;
+      color: #DFE4F1;
+      font-family: Manrope;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 3rem;
+      letter-spacing: 0em;
+      text-align: center;
+   }
 
    &__strech{
       width: 54.9rem;
@@ -78,10 +92,55 @@ z-index: -10;
       height: 6rem;
    }
 }
+.btn__footer{
+   
+   width: 14.9rem;
+   height: 52px;
+   color: #DFE4F1;
+  
+
+   background: #3734A9;
+}
+.form{
+   width: 36rem;
+   height: 28rem;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   
+}
+.form__1{
+   width: 37rem;
+   height: 23rem;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   
+}
 
 .file{
    width: 35.6rem;
    height: 6rem;
+   background: #FFFFFF;
+   border: 1px solid #DFE4F1;
+   box-sizing: border-box;
+   border-radius: 5px;
+}
+.file__1{
+   width: 37rem;
+   height: 6rem;
+   border: 1px solid #DFE4F1;
+   box-sizing: border-box;
+   border-radius: 5px;
+   background: #F2F3F4;
+   opacity: 0.2;
+
+}
+.file__2{
+   width: 24rem;
+   height: 5.2rem;
    background: #FFFFFF;
    border: 1px solid #DFE4F1;
    box-sizing: border-box;
@@ -103,3 +162,46 @@ z-index: -10;
    border: 1px solid #DFE4F1;
    margin-left: 1rem;
 }
+
+.polygon{
+    
+   position: absolute;
+   width: 253px;
+   height: 253px;
+   left: 1242px;
+   top: 4818px;
+   
+   background: #FFFFFF;
+   opacity: 0.1;
+   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+   border-radius: 25px;
+   }
+   .polygon_meduim{
+   
+   
+   position: absolute;
+   width: 111px;
+   height: 111px;
+   left: 5px;
+   top: 5200px;
+   
+   background: #FFFFFF;
+   opacity: 0.1;
+   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+   border-radius: 15px;
+   }
+   .polygon__small{
+   
+   
+   position: absolute;
+   width: 79px;
+   height: 79px;
+   left: 640px;
+   top: 5000px;
+   
+   background: #FFFFFF;
+   opacity: 0.1;
+   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+   border-radius: 15px;
+   
+   }

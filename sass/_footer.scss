@@ -1,7 +1,7 @@
 .footer{
-    background-color: chartreuse;
-    width: 114rem;
-    height: 32.5rem;
+    
+    width: 115rem;
+    height: 33rem;
     margin: 6rem 13rem 6rem 17.2rem;
 
     display: flex;
@@ -10,10 +10,10 @@
     align-items: center;
     
     &__contents{
-        background-color: aquamarine;
-        width: 114rem;
+     
+        width: 115rem;
         height: 20rem;
-        // display: flex;
+        display: flex;
         // // justify-content: space-between;
     
 
@@ -29,22 +29,57 @@
     }
 
     &__text{
-        background-color: blueviolet;
+
         width: 68rem;
         height: 2.5rem;
+        text-align: center;
         
     }
 
     &__name{
-        background-color: red;
+      
         width: 21.3rem;
         height: 15.3rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
     }
 
     &__discription{
-        background-color: chartreuse;
+       
         width: 88rem;
         height: 20rem;
+
+        display: flex;
+        justify-content: space-evenly;
     }
 
+}
+.socialmedia{
+    width: 13rem;
+    height: 2rem;
+}
+.company{
+ 
+    width: 10rem;
+    height: 20rem;
+}
+.resources{
+ 
+    width: 17.5rem;
+    height: 18rem;
+}
+.newsletter{
+   
+    width: 39rem;
+    height: 17.5rem;
+}
+.button-footer{
+    width: 39rem;
+    height: 5.3rem;
+
+    display: flex;
 }

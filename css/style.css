@@ -21,14 +21,11 @@ body {
   top: -62px;
   z-index: -10; }
 
-.heading1 {
-  background-color: bisque; }
-
 .btn {
   width: 14rem;
   height: 5.2rem;
   color: #DFE4F1;
-  border-radius: 20%;
+  border-radius: 12px;
   display: inline-block;
   background-color: #3734A9;
   border: 1px solid #DFE4F1;
@@ -49,7 +46,8 @@ body {
     width: 54.9rem;
     height: 4.8rem;
     background: #3734A9;
-    border-radius: 2rem; }
+    border-radius: 12px;
+    color: #FFFFFF; }
   .btn__big {
     height: 6rem;
     width: 18rem;
@@ -61,7 +59,7 @@ body {
     width: 26rem;
     height: 6rem;
     margin: 4rem 48rem;
-    border-radius: 20%; }
+    border-radius: 22px; }
   .btn__green {
     width: 26rem;
     height: 6rem; }
@@ -74,8 +72,22 @@ body {
   box-sizing: border-box;
   border-radius: 5px; }
 
+.playbtn {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2rem; }
+
+.btn__process {
+  border-radius: 22px;
+  width: 14rem;
+  height: 5.2rem;
+  color: #DFE4F1;
+  display: inline-block;
+  background-color: #3734A9;
+  border: 1px solid #DFE4F1;
+  margin-left: 1rem; }
+
 .heading1 {
-  background-color: crimson;
   font-family: Manrope;
   font-size: 60px;
   font-weight: 800;
@@ -107,7 +119,16 @@ body {
   font-size: 2.2rem;
   font-weight: 500;
   line-height: 3rem;
-  text-align: center; }
+  text-align: left; }
+
+.heading4__1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000; }
 
 .heading5 {
   font-family: Manrope;
@@ -225,6 +246,15 @@ body {
   color: #000000;
   text-transform: uppercase; }
 
+.heading12 {
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #3734A9; }
+
 .above-fold {
   margin: 13rem 37rem 13rem 15rem;
   width: 104rem;
@@ -232,7 +262,6 @@ body {
   display: flex; }
 
 .content {
-  background-color: blueviolet;
   padding-right: 4rem; }
   .content__button {
     display: flex; }
@@ -260,6 +289,11 @@ body {
   text-align: center;
   text-decoration: none;
   background-color: #22D497; }
+
+.play {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
 
 .nav {
   margin: 2.8rem 12rem;
@@ -349,9 +383,10 @@ body {
   margin-right: 0; }
 
 .cta {
-  background-color: crimson;
   width: 104rem;
   height: 20rem;
+  background: #F8F9FD;
+  border-radius: 10px;
   margin: 4rem 20rem;
   padding: 6.8rem 7.8rem;
   display: flex;
@@ -362,7 +397,6 @@ body {
     height: 11.2rem; }
 
 .contentbig {
-  background-color: darkgreen;
   width: 115.5rem;
   height: 52rem;
   margin: 5rem 10rem 5rem 18rem;
@@ -370,7 +404,6 @@ body {
   justify-content: space-between; }
 
 .cards {
-  background-color: chartreuse;
   width: 56.4rem;
   height: 52.2rem; }
 
@@ -381,7 +414,6 @@ body {
 
 .card {
   z-index: +2;
-  background-color: chocolate;
   height: 38.8rem;
   width: 34.2rem;
   padding: 4rem 2rem;
@@ -394,7 +426,7 @@ body {
   width: 8rem;
   height: 8rem;
   z-index: 40;
-  margin-bottom: -10rem;
+  margin-bottom: -4rem;
   margin-left: 30rem; }
 
 .card2 {
@@ -412,16 +444,35 @@ body {
     height: 10rem;
     width: 10rem;
     margin: 3rem 13rem; }
+  .card2__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; }
 
 .massanger {
-  background-color: blueviolet;
   width: 20rem;
   height: 5rem;
   margin: 2rem 2rem;
   display: flex; }
   .massanger__pic {
     height: 5rem;
-    width: 5rem; }
+    width: 5rem;
+    margin-right: 1rem; }
+
+.contentbig-boxes {
+  padding-top: 4rem; }
+
+.tick {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: 1rem; }
+
+.contentbig-box {
+  width: 25rem;
+  height: 3rem;
+  display: flex; }
 
 .quick {
   background-color: chocolate;
@@ -555,8 +606,7 @@ body {
   .footer__contents {
     background-color: aquamarine;
     width: 114rem;
-    height: 20rem;
-    display: flex; }
+    height: 20rem; }
   .footer__line {
     width: 1140px;
     height: 2px;
@@ -595,16 +645,16 @@ body {
     background-color: aliceblue;
     width: 38rem;
     height: 35rem;
-    padding-top: 12rem;
-    display: inline-block;
-    display: flex;
-    justify-content: space-between; }
+    padding: 12rem 4rem 4rem 4rem;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 22px; }
   .platform__img {
     width: 4rem;
     height: 4rem; }
 
 .companies {
-  background-color: burlywood;
   width: 88.4rem;
   height: 9.5rem;
   margin: 4rem 28rem;
@@ -613,12 +663,15 @@ body {
   align-items: center;
   justify-content: center; }
   .companies__text {
-    background-color: chartreuse;
-    width: 57.2rem;
-    height: 3rem; }
+    width: 65rem;
+    height: 3rem;
+    text-align: center; }
   .companies__logos {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
     .companies__logos-box {
       width: 13.75rem;
       height: 2.9rem;

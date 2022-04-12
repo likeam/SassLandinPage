@@ -8,7 +8,7 @@
 
 }
 .content{
-    background-color: blueviolet;
+    
     padding-right: 4rem;
     &__button{
         display: flex;
@@ -42,4 +42,10 @@
 	background-color: #22D497;
 
 
+}
+.play{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
 }

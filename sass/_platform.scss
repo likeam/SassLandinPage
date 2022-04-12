@@ -13,11 +13,11 @@
         background-color: aliceblue;
         width: 38rem;
         height: 35rem;
-        padding-top: 12rem;
-        display: inline-block;
-
-        display: flex;
-        justify-content: space-between;
+        padding: 12rem 4rem 4rem 4rem;
+         background: #FFFFFF;
+        border: 1px solid #DFDFDF;
+        box-sizing: border-box;
+        border-radius: 22px;
 
     }
     &__img{

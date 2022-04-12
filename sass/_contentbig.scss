@@ -1,5 +1,5 @@
 .contentbig{
-    background-color: darkgreen;
+  
     width: 115.5rem;
     height: 52rem;
     margin: 5rem 10rem 5rem 18rem;
@@ -10,7 +10,7 @@
 }
 
 .cards{
-    background-color: chartreuse;
+
     width: 56.4rem;
     height: 52.2rem;
 }
@@ -22,7 +22,7 @@
 }
 .card{
     z-index: +2;
-    background-color: chocolate;
+   
     height: 38.8rem;
     width: 34.2rem;
     padding: 4rem 2rem;
@@ -39,7 +39,7 @@
     width: 8rem;
     height: 8rem;
     z-index: 40;
-    margin-bottom: -10rem;
+    margin-bottom: -4rem;
     margin-left: 30rem;
 
 }
@@ -60,23 +60,41 @@
         width: 10rem;
         margin: 3rem 13rem;
     }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
 }
-.massanger{
-
-
-    background-color: blueviolet;
+.massanger{    
     width: 20rem;
-
     height: 5rem;
     margin: 2rem 2rem;
+
     display: flex;
 
-    &__pic{
-
-     
+    &__pic{     
     height: 5rem;
-    width: 5rem;
-    
+    width: 5rem; 
+    margin-right: 1rem;  
 
     }
+}
+.contentbig-boxes{
+    padding-top: 4rem;
+}
+
+.tick{
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-right: 1rem;
+}
+.contentbig-box{
+    width: 25rem;
+    height: 3rem;
+   
+
+    display: flex;
 }

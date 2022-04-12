@@ -15,28 +15,21 @@ body{
    color: #000000;
    
 }
-.mainbody{
-   
+.mainbody{   
 position: absolute;
 width: 968.46px;
 height: 810.67px;
 left: 594px;
 top: -62px;
 z-index: -10;
-
-
 }
 
-.heading1{
-   background-color: bisque;
-
-}
 
 .btn{
    width: 14rem;
    height: 5.2rem;
    color: #DFE4F1;
-   border-radius: 20%;
+   border-radius: 12px;
    display: inline-block;
    background-color:#3734A9;
    border: 1px solid #DFE4F1;
@@ -60,7 +53,8 @@ z-index: -10;
       width: 54.9rem;
       height: 4.8rem;
       background: #3734A9;
-      border-radius: 2rem;
+      border-radius: 12px;
+      color: #FFFFFF;
 
    }
    &__big{
@@ -70,15 +64,14 @@ z-index: -10;
       line-height: 1.9rem;
       align-self: center;
       color:#ffff;
-      // margin: 6.8rem 7.2rem 6.8em auto;
-     
-      
    }
+   
+   
    &__medium{
       width: 26rem;
       height: 6rem;
       margin: 4rem 48rem;
-      border-radius: 20%;
+      border-radius: 22px;
    }
    &__green{
       width: 26rem;
@@ -93,4 +86,20 @@ z-index: -10;
    border: 1px solid #DFE4F1;
    box-sizing: border-box;
    border-radius: 5px;
+}
+.playbtn{
+   width: 6rem;
+   height: 6rem;
+   margin-right: 2rem;
+}
+
+.btn__process{
+   border-radius: 22px;
+   width: 14rem;
+   height: 5.2rem;
+   color: #DFE4F1; 
+   display: inline-block;
+   background-color:#3734A9;
+   border: 1px solid #DFE4F1;
+   margin-left: 1rem;
 }

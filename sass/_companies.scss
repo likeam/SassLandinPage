@@ -1,5 +1,5 @@
 .companies{
-    background-color: burlywood;
+   
     width: 88.4rem;
     height: 9.5rem;
     margin: 4rem 28rem;
@@ -10,14 +10,18 @@
     justify-content: center;
 
     &__text{
-        background-color: chartreuse;
-        width: 57.2rem;
-        height: 3rem;  
+        
+        width: 65rem;
+        height: 3rem; 
+        text-align: center; 
     }
 
     &__logos{
+        margin-top: 4rem;
+        margin-bottom: 6rem;
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         &-box{
             width:13.75rem ;

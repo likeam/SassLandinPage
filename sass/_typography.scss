@@ -1,5 +1,5 @@
 .heading1{
-    background-color: crimson;
+    
     font-family: Manrope;
     font-size: 60px;
     font-weight: 800;
@@ -36,10 +36,26 @@
     font-size: 2.2rem;
     font-weight: 500;
     line-height: 3rem;
-    text-align: center;
+    text-align: left;
    
 
 }
+.heading4__1{
+
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+
+
+text-align: center;
+
+color: #000000;
+
+
+}
+
 
 .heading5{
     font-family: Manrope;
@@ -174,5 +190,15 @@ letter-spacing: -0.03em;
 text-align: left;
 color: #000000;
 text-transform: uppercase;
+
+}
+.heading12{
+    font-family: Manrope;
+font-size: 17px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #3734A9;
 
 }

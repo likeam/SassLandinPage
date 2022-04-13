@@ -11,7 +11,8 @@ html {
 
 body {
   font-family: 'manrope',sans-serif;
-  color: #000000; }
+  color: #000000;
+  max-width: 90vw; }
 
 .mainbody {
   position: absolute;
@@ -29,7 +30,8 @@ body {
   display: inline-block;
   background-color: #3734A9;
   border: 1px solid #DFE4F1;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  cursor: pointer; }
   .btn__orange {
     background: #FF7F5C;
     width: 35.6rem;
@@ -41,7 +43,8 @@ body {
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: 0em;
-    text-align: center; }
+    text-align: center;
+    cursor: pointer; }
   .btn__orange__1 {
     background: #FF7F5C;
     width: 37rem;
@@ -53,33 +56,39 @@ body {
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: 0em;
-    text-align: center; }
+    text-align: center;
+    cursor: pointer; }
   .btn__strech {
     width: 54.9rem;
     height: 4.8rem;
     background: #3734A9;
     border-radius: 12px;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    cursor: pointer; }
   .btn__big {
     height: 6rem;
     width: 18rem;
     font-size: 1.6rem;
     line-height: 1.9rem;
     align-self: center;
-    color: #ffff; }
+    color: #ffff;
+    cursor: pointer; }
   .btn__medium {
     width: 26rem;
     height: 6rem;
     margin: 4rem 48rem;
-    border-radius: 22px; }
+    border-radius: 22px;
+    cursor: pointer; }
   .btn__green {
     width: 26rem;
-    height: 6rem; }
+    height: 6rem;
+    cursor: pointer; }
 
 .btn__footer {
   width: 14.9rem;
   height: 52px;
   color: #DFE4F1;
+  cursor: pointer;
   background: #3734A9; }
 
 .form {
@@ -124,7 +133,8 @@ body {
 .playbtn {
   width: 6rem;
   height: 6rem;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  cursor: pointer; }
 
 .btn__process {
   border-radius: 22px;
@@ -134,7 +144,8 @@ body {
   display: inline-block;
   background-color: #3734A9;
   border: 1px solid #DFE4F1;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  cursor: pointer; }
 
 .polygon {
   position: absolute;
@@ -193,7 +204,7 @@ body {
   font-weight: 800;
   font-size: 3.6rem;
   line-height: 5.6rem;
-  color: #000000; }
+  color: #3734A9; }
 
 .heading4 {
   width: 45rem;
@@ -229,7 +240,8 @@ body {
   text-align: left;
   line-height: 30px;
   letter-spacing: -0.02em;
-  color: #64607D; }
+  color: #64607D;
+  text-align: center; }
 
 .heading6 {
   font-family: Manrope;
@@ -408,8 +420,8 @@ body {
   text-align: left; }
 
 .above-fold {
-  margin: 13rem 37rem 13rem 15rem;
-  width: 104rem;
+  margin: 13rem auto;
+  width: 80vw;
   height: 44rem;
   display: flex; }
 
@@ -442,8 +454,8 @@ body {
   align-items: center; }
 
 .nav {
-  margin: 2.8rem 12rem;
-  width: 120rem;
+  width: 80vw;
+  margin: 4rem auto;
   height: 5rem;
   display: flex;
   justify-content: space-between;
@@ -466,7 +478,8 @@ body {
   .nav__list {
     text-decoration: none;
     display: flex;
-    gap: 1.2rem; }
+    gap: 1.2rem;
+    list-style: none; }
   .nav__item {
     font-family: Manrope;
     font-size: 1.4rem;
@@ -475,7 +488,8 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: black;
-    text-decoration: none; }
+    text-decoration: none;
+    cursor: pointer; }
   .nav__link {
     font-family: Manrope;
     font-size: 1.4rem;
@@ -491,18 +505,18 @@ body {
     align-items: center; }
 
 .about {
-  width: 70rem;
+  width: 80rem;
   height: 20.6rem;
-  margin: 2rem 37rem;
+  margin: 4rem auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center; }
 
 .process {
-  width: 104rem;
+  width: 80vw;
   height: 23rem;
-  margin: 3rem 20rem;
+  margin: 3rem auto;
   display: flex;
   align-content: space-between; }
   .process__bgimg {
@@ -529,11 +543,11 @@ body {
   margin-right: 0; }
 
 .cta {
-  width: 104rem;
+  width: 80vw;
   height: 20rem;
   background: #F8F9FD;
   border-radius: 10px;
-  margin: 4rem 20rem;
+  margin: 4rem auto;
   padding: 6.8rem 7.8rem;
   display: flex;
   justify-content: space-around;
@@ -543,9 +557,9 @@ body {
     height: 11.2rem; }
 
 .contentbig {
-  width: 115.5rem;
+  width: 80vw;
   height: 52rem;
-  margin: 5rem 10rem 5rem 18rem;
+  margin: 5rem auto;
   display: flex;
   justify-content: space-between; }
 
@@ -621,9 +635,9 @@ body {
 
 .quick {
   background: #FFFFFF;
-  width: 120rem;
+  width: 80vw;
   height: 17rem;
-  margin: 12rem;
+  margin: 12rem auto;
   padding: 4rem;
   background: #FFFFFF;
   border: 1px solid #DFDFDF;
@@ -650,9 +664,9 @@ body {
     border-radius: 5px; }
 
 .testimonials {
-  width: 120rem;
+  width: 80vw;
   height: 62rem;
-  margin: 6rem 12rem; }
+  margin: 6rem auto; }
   .testimonials__heading {
     width: 32.4rem;
     height: 12.8rem; }
@@ -697,9 +711,9 @@ body {
   background-color: white; }
 
 .blog {
-  width: 120rem;
+  width: 80vw;
   height: 63.3rem;
-  margin: 4rem 12rem; }
+  margin: 4rem auto; }
   .blog__navigation {
     width: 119.3rem;
     height: 6rem;
@@ -737,8 +751,8 @@ body {
 .acta {
   background-color: #3734A9;
   height: 45rem;
-  width: 144rem;
-  margin: 4rem 0;
+  width: 80vw;
+  margin: 4rem auto;
   padding: 7rem 23rem 4rem  12.2rem; }
   .acta__contents {
     width: 109rem;
@@ -750,9 +764,9 @@ body {
     height: 30rem; }
 
 .footer {
-  width: 115rem;
+  width: 80vw;
   height: 33rem;
-  margin: 6rem 13rem 6rem 17.2rem;
+  margin: 6rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -804,16 +818,16 @@ body {
   display: flex; }
 
 .value {
-  width: 71.8em;
+  width: 80vw;
   height: 13.3rem;
-  margin: 16rem 32rem;
+  margin: 16rem auto;
   justify-content: center;
   align-items: center; }
 
 .platform {
-  width: 120rem;
+  width: 80vw;
   height: 45.2rem;
-  margin: 8rem 12rem; }
+  margin: 8rem auto; }
   .platform__cards {
     display: flex;
     justify-content: space-between; }
@@ -839,9 +853,9 @@ body {
   justify-content: space-evenly; }
 
 .companies {
-  width: 88.4rem;
+  width: 80vw;
   height: 9.5rem;
-  margin: 4rem 28rem;
+  margin: 4rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;

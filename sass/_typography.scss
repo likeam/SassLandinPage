@@ -6,8 +6,15 @@
     line-height: 74px;
     letter-spacing: -0.03em;
     text-align: left;
+    color: #000000;
 
 }
+@media  (max-width: 786px) {
+    .heading1{
+       color:yellow;
+    }
+ }
+
 .heading2{
     font-family: 'Manrope';
     font-style: normal;

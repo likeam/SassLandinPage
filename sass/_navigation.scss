@@ -1,6 +1,6 @@
 .nav{
    
-   
+
     width: 80vw;
     margin: 4rem auto;
     height: 5rem;
@@ -70,5 +70,11 @@
          justify-content: space-between; 
          align-items: center;   
       
+    }
+}
+
+@media (max-width: 786px){
+    .nav{
+        background-color: aqua;
     }
 }

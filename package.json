@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css "
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/likeam/SassLandinPage.git"
   },
-  "author": "Abdul Rehamn",
+  "author": "AR",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/likeam/SassLandinPage/issues"

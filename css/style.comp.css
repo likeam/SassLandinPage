@@ -193,9 +193,26 @@ body {
   text-align: left;
   color: #000000; }
 
-@media (max-width: 786px) {
-  .heading1 {
-    color: yellow; } }
+.heading1__1 {
+  font-family: Manrope;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1em;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white; }
+
+.heading1__2 {
+  font-family: Manrope;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1em;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 .heading2 {
   font-family: 'Manrope';
@@ -207,6 +224,15 @@ body {
   color: #000000;
   text-align: center; }
 
+.heading2__1 {
+  font-family: Manrope;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 4.8rem;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #000000; }
+
 .heading3 {
   font-family: 'Manrope';
   font-style: normal;
@@ -214,6 +240,14 @@ body {
   font-size: 3.6rem;
   line-height: 5.6rem;
   color: black; }
+
+.heading3_1 {
+  font-family: Manrope;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.3rem;
+  letter-spacing: 0em;
+  color: #000; }
 
 .heading3__3 {
   font-family: 'Manrope';
@@ -248,6 +282,14 @@ body {
   line-height: 3rem;
   text-align: center; }
 
+.heading5__1 {
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 800 bold;
+  line-height: 3rem;
+  padding-right: 50%;
+  margin: 2rem auto; }
+
 .heading5__2 {
   font-family: Manrope;
   font-size: 2rem;
@@ -258,6 +300,14 @@ body {
   letter-spacing: -0.02em;
   color: #64607D;
   text-align: center; }
+
+.heading5__3 {
+  font-family: Gilroy;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left; }
 
 .heading6 {
   font-family: Manrope;
@@ -285,13 +335,15 @@ body {
   letter-spacing: -0.02em;
   text-align: left; }
 
-.heading3_1 {
+.heading7_1 {
   font-family: Manrope;
-  font-size: 2.4rem;
-  font-weight: 700;
-  line-height: 3.3rem;
-  letter-spacing: 0em;
-  color: #000; }
+  font-size: 1.4rem;
+  font-weight: 700, bold;
+  line-height: 1.75rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #3734A9;
+  text-transform: uppercase; }
 
 .heading8 {
   font-family: Manrope;
@@ -343,27 +395,6 @@ body {
   letter-spacing: 0em;
   text-align: left; }
 
-.heading1__1 {
-  font-family: Manrope;
-  font-size: 5rem;
-  font-weight: 800;
-  line-height: 1em;
-  letter-spacing: -0.03em;
-  text-align: left;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  color: white; }
-
-.heading1__2 {
-  font-family: Manrope;
-  font-size: 5rem;
-  font-weight: 800;
-  line-height: 1em;
-  letter-spacing: -0.03em;
-  text-align: left;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-
 .heading10 {
   font-family: Manrope;
   font-size: 2.4rem;
@@ -380,33 +411,6 @@ body {
   line-height: 3rem;
   letter-spacing: -0.02em;
   text-align: left; }
-
-.heading7_1 {
-  font-family: Manrope;
-  font-size: 1.4rem;
-  font-weight: 700, bold;
-  line-height: 1.75rem;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: #3734A9;
-  text-transform: uppercase; }
-
-.heading2__1 {
-  font-family: Manrope;
-  font-size: 4rem;
-  font-weight: 800;
-  line-height: 4.8rem;
-  letter-spacing: -0.03em;
-  text-align: left;
-  color: #000000; }
-
-.heading5__1 {
-  font-family: Manrope;
-  font-size: 2rem;
-  font-weight: 800 bold;
-  line-height: 3rem;
-  padding-right: 50%;
-  margin: 2rem auto; }
 
 .heading11__1 {
   font-family: Manrope;
@@ -426,14 +430,6 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
   color: #3734A9; }
-
-.heading5__3 {
-  font-family: Gilroy;
-  font-size: 2.1rem;
-  font-weight: 700;
-  line-height: 28px;
-  letter-spacing: -0.02em;
-  text-align: left; }
 
 .above-fold {
   margin: 13rem auto;
@@ -470,24 +466,25 @@ body {
   align-items: center; }
 
 .nav {
-  width: 80vw;
+  width: 90vw;
   margin: 4rem auto;
   height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center; }
   .nav__shapevoice {
-    width: 12rem;
+    width: 8vw;
     height: 2.5rem;
-    margin-top: 1.25rem;
     font-style: normal;
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.5rem;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase; }
   .nav__group-18 {
-    width: 79rem;
+    width: 50vw;
+    margin-left: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -534,7 +531,7 @@ body {
   align-items: center; }
 
 .process {
-  width: 80vw;
+  width: 90vw;
   height: 23rem;
   margin: 3rem auto;
   display: flex;
@@ -544,26 +541,26 @@ body {
     z-index: -1; }
   .process__iconbox {
     margin-left: 0;
-    margin-bottom: 8rem; }
+    margin-bottom: 10rem; }
 
 .group200 {
-  width: 28rem;
+  width: 20vw;
   height: 22.8rem;
   margin-right: 10rem;
   background-repeat: no-repeat; }
 
 .group201 {
-  width: 28rem;
+  width: 20vw;
   height: 22.8rem;
   margin-right: 10rem; }
 
 .group202 {
-  width: 28rem;
+  width: 20vw;
   height: 22.8rem;
   margin-right: 0; }
 
 .cta {
-  width: 80vw;
+  width: 90vw;
   height: 20rem;
   background: #F8F9FD;
   border-radius: 10px;
@@ -685,7 +682,7 @@ body {
     cursor: pointer; }
 
 .testimonials {
-  width: 80vw;
+  width: 90vw;
   height: 62rem;
   margin: 6rem auto; }
   .testimonials__heading {
@@ -696,7 +693,7 @@ body {
     justify-content: space-between; }
   .testimonials__pic {
     background-color: white;
-    width: 69rem;
+    width: 60vw;
     height: 45rem;
     display: inline-block; }
   .testimonials__img {

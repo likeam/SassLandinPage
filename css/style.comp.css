@@ -729,7 +729,7 @@ body {
   background-color: white; }
 
 .blog {
-  width: 80vw;
+  width: 90vw;
   height: 63.3rem;
   margin: 4rem auto; }
   .blog__navigation {
@@ -738,13 +738,13 @@ body {
     display: flex;
     justify-content: space-between; }
   .blog__contents {
-    width: 119.3rem;
+    width: 85vw;
     height: 51.8rem;
     margin-top: 5rem;
     display: flex;
     justify-content: space-between; }
   .blog__card {
-    width: 38rem;
+    width: 25vw;
     height: 49.5rem;
     background-color: white; }
   .blog__subcard {
@@ -770,7 +770,7 @@ body {
 .acta {
   background-color: #3734A9;
   height: 45rem;
-  width: 90vw;
+  width: 100vw;
   margin: 4rem auto;
   padding: 7rem 23rem 4rem  12.2rem; }
   .acta__contents {

@@ -433,7 +433,7 @@ body {
 
 .above-fold {
   margin: 13rem auto;
-  width: 80vw;
+  width: 85vw;
   height: 44rem;
   display: flex; }
 
@@ -541,7 +541,9 @@ body {
     z-index: -1; }
   .process__iconbox {
     margin-left: 0;
-    margin-bottom: 10rem; }
+    margin-bottom: 10rem;
+    width: 64px;
+    height: 64px; }
 
 .group200 {
   width: 20vw;
@@ -556,8 +558,7 @@ body {
 
 .group202 {
   width: 20vw;
-  height: 22.8rem;
-  margin-right: 0; }
+  height: 22.8rem; }
 
 .cta {
   width: 90vw;
@@ -771,7 +772,6 @@ body {
   background-color: #3734A9;
   height: 45rem;
   width: 100vw;
-  margin: 4rem auto;
   padding: 7rem 23rem 4rem  12.2rem; }
   .acta__contents {
     width: 109rem;
